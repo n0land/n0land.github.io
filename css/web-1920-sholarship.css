@@ -1,0 +1,153 @@
+/* screen - web-1920-sholarship */
+
+.web-1920-sholarship {
+  background-color: var(--black);
+  height: 1080px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.web-1920-sholarship .rechteck-22-DyEnm8 {
+  background-color: transparent;
+  height: 1080px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.web-1920-sholarship .rechteck-22-DyEnm8 video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.web-1920-sholarship .rechteck-22-DyEnm8 img {
+  object-fit: cover;
+}
+
+.web-1920-sholarship .pfad-1-DyEnm8 {
+  background-color: transparent;
+  height: 60px;
+  left: 1695px;
+  object-fit: cover;
+  position: absolute;
+  top: 61px;
+  width: 175px;
+}
+
+.web-1920-sholarship .connect-DyEnm8 {
+  background-color: transparent;
+  height: auto;
+  left: 1738px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: right;
+  top: 78px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-sholarship .your-account-DyEnm8 {
+  background-color: transparent;
+  height: auto;
+  left: 1528px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: right;
+  top: 82px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-sholarship .rechteck-13-DyEnm8 {
+  background-color: transparent;
+  border-radius: 30px;
+  height: 114px;
+  left: 238px;
+  position: absolute;
+  top: 538px;
+  width: 1445px;
+}
+
+.web-1920-sholarship .your-account-HhWy9I {
+  background-color: transparent;
+  color: var(--chardon);
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 819px;
+  letter-spacing: 0.00px;
+  line-height: 47px;
+  position: absolute;
+  text-align: right;
+  top: 432px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-sholarship .slp-balance-DyEnm8 {
+  background-color: transparent;
+  height: auto;
+  left: 334px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: right;
+  top: 582px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-sholarship .payout-adresse-ronin-DyEnm8 {
+  background-color: transparent;
+  height: auto;
+  left: 1249px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: right;
+  top: 582px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-sholarship .next-payout-DyEnm8 {
+  background-color: transparent;
+  height: auto;
+  left: 808px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: right;
+  top: 582px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-sholarship .rechteck-23-DyEnm8 {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 38px;
+  left: 51px;
+  position: absolute;
+  top: 81px;
+  width: 40px;
+}
+
+.web-1920-sholarship .polygon-1-DyEnm8 {
+  background-color: transparent;
+  height: 36px;
+  left: 44px;
+  object-fit: cover;
+  position: absolute;
+  top: 46px;
+  width: 54px;
+}

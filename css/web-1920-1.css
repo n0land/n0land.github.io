@@ -1,0 +1,198 @@
+/* screen - web-1920-1 */
+
+.web-1920-1 {
+  background-color: var(--black);
+  height: 1080px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.web-1920-1 .rechteck-22-HlzXCz {
+  background-color: transparent;
+  height: 1080px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.web-1920-1 .rechteck-22-HlzXCz video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.web-1920-1 .rechteck-22-HlzXCz img {
+  object-fit: cover;
+}
+
+.web-1920-1 .your-email-HlzXCz {
+  background-color: transparent;
+  height: auto;
+  left: 590px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: right;
+  top: 442px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-1 .your-ronin-payout-adresse-HlzXCz {
+  background-color: transparent;
+  height: auto;
+  left: 590px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: right;
+  top: 514px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-1 .your-ethereum-adresse-HlzXCz {
+  background-color: transparent;
+  height: auto;
+  left: 593px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: right;
+  top: 586px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-1 .pfad-2-HlzXCz {
+  background-color: transparent;
+  height: 254px;
+  left: 572px;
+  object-fit: cover;
+  position: absolute;
+  top: 396px;
+  width: 669px;
+}
+
+.web-1920-1 .title-HlzXCz {
+  background-color: transparent;
+  color: var(--chardon);
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 706px;
+  letter-spacing: 0.00px;
+  line-height: 47px;
+  position: absolute;
+  text-align: right;
+  top: 231px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-1 .rechteck-2-HlzXCz {
+  background-color: transparent;
+  border-radius: 36px;
+  height: 60px;
+  left: 1066px;
+  position: absolute;
+  top: 702px;
+  width: 175px;
+}
+
+.web-1920-1 .send-HlzXCz {
+  background-color: transparent;
+  color: var(--chardon);
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 1120px;
+  letter-spacing: 0.00px;
+  line-height: 29px;
+  position: absolute;
+  text-align: right;
+  top: 718px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-1 .rechteck-14-HlzXCz {
+  background-color: transparent;
+  cursor: pointer;
+  height: 23px;
+  left: 849px;
+  position: absolute;
+  top: 440px;
+  width: 363px;
+}
+
+.web-1920-1 .rechteck-15-HlzXCz {
+  background-color: transparent;
+  cursor: pointer;
+  height: 23px;
+  left: 849px;
+  position: absolute;
+  top: 596px;
+  width: 363px;
+}
+
+.web-1920-1 .rechteck-16-HlzXCz {
+  background-color: transparent;
+  cursor: pointer;
+  height: 23px;
+  left: 849px;
+  position: absolute;
+  top: 512px;
+  width: 363px;
+}
+
+.web-1920-1 .pfad-1-HlzXCz {
+  background-color: transparent;
+  height: 60px;
+  left: 1695px;
+  object-fit: cover;
+  position: absolute;
+  top: 61px;
+  width: 175px;
+}
+
+.web-1920-1 .connect-HlzXCz {
+  background-color: transparent;
+  height: auto;
+  left: 1738px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: right;
+  top: 78px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-1 .rechteck-23-HlzXCz {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 38px;
+  left: 51px;
+  position: absolute;
+  top: 81px;
+  width: 40px;
+}
+
+.web-1920-1 .polygon-1-HlzXCz {
+  background-color: transparent;
+  height: 36px;
+  left: 44px;
+  object-fit: cover;
+  position: absolute;
+  top: 46px;
+  width: 54px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/web-1920-1.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #000000">
+    <input type="hidden" id="anPageName" name="page" value="web-1920-1" />
+    <div class="container-center-horizontal">
+      <form class="web-1920-1 screen" name="form3" action="form3" method="post">
+        <div class="rechteck-22-HlzXCz border-1px-dove-gray">
+          <video
+            src="https://anima-uploads.s3.amazonaws.com/projects/615c0d5903bdc59f53af1db5/files/background.mp4"
+            loop
+            autoplay="autoplay"
+            playsinline
+            muted
+          ></video>
+        </div>
+        <div class="your-email-HlzXCz helveticaneue-regular-normal-chardon-20px">Your Email:</div>
+        <div class="your-ronin-payout-adresse-HlzXCz helveticaneue-regular-normal-chardon-20px">
+          Your Ronin Payout Adresse
+        </div>
+        <div class="your-ethereum-adresse-HlzXCz helveticaneue-regular-normal-chardon-20px">Your Ethereum Adresse</div>
+        <img class="pfad-2-HlzXCz" src="img/pfad-2@1x.png" />
+        <h1 class="title-HlzXCz">Apply for Scholarship</h1>
+        <div class="rechteck-2-HlzXCz border-2px-dove-gray"></div>
+        <div class="send-HlzXCz">Send</div>
+        <a href="javascript:SubmitForm('form3')"> <div class="rechteck-14-HlzXCz border-1px-dove-gray"></div></a
+        ><a href="javascript:SubmitForm('form3')"> <div class="rechteck-15-HlzXCz border-1px-dove-gray"></div></a
+        ><a href="javascript:SubmitForm('form3')"> <div class="rechteck-16-HlzXCz border-1px-dove-gray"></div></a
+        ><img class="pfad-1-HlzXCz" src="img/pfad-1-1@1x.png" />
+        <div class="connect-HlzXCz helveticaneue-regular-normal-chardon-20px">Connect</div>
+        <a href="web-1920-homepage.html"> <div class="rechteck-23-HlzXCz border-1px-dove-gray"></div></a
+        ><img class="polygon-1-HlzXCz" src="img/polygon-1-1@1x.png" />
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>
