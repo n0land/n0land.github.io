@@ -15,17 +15,26 @@ const initialize = () => {
   };
   
     //------Inserted Code------\\
-  const MetaMaskClientCheck = () => {
-    //Now we check to see if MetaMask is installed
-    if (!isMetaMaskInstalled()) {
-      //If it isn't installed we ask the user to click to install it
-      onboardButton.innerText = 'Click here to install MetaMask!';
-    } else {
-      //If it is installed we change our button text
-      onboardButton.innerText = 'Connect';
-    }
-  };
-  MetaMaskClientCheck();
+const MetaMaskClientCheck = () => {
+  //Now we check to see if Metmask is installed
+  if (!isMetaMaskInstalled()) {
+    //If it isn't installed we ask the user to click to install it
+    onboardButton.innerText = 'Click here to install MetaMask!';
+    //When the button is clicked we call th is function
+    onboardButton.onclick = onClickInstall;
+    //The button is now disabled
+    onboardButton.disabled = false;
+  } else {
+    //If MetaMask is installed we ask the user to connect to their wallet
+    onboardButton.innerText = 'Connect';
+    //When the button is clicked we call this function to connect the users MetaMask Wallet
+    onboardButton.onclick = onClickConnect;
+    //The button is now disabled
+    onboardButton.disabled = false;
+  }
+};
+MetaMaskClientCheck();
+
   //------/Inserted Code------\\
 };
 
