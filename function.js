@@ -8,9 +8,7 @@ const initialize = () => {
 };
 window.addEventListener('DOMContentLoaded', initialize);
 
-const initialize = () => {
-  //Basic Actions Section
-  const onboardButton = document.getElementById('connectButton');
-};
+const onboardButton = document.getElementById('connectButton');
+
 
 
