@@ -1,3 +1,4 @@
+
 function myFunction() {
   document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
@@ -41,7 +42,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 const showAccount = document.querySelector('.showAccount');
 
-ethereumButton.addEventListener('click', () => {
+onboardButton.addEventListener('click', () => {
   getAccount();
 });
 
