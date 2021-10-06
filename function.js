@@ -7,4 +7,6 @@ function myFunction() {
 const initialize = () => {
   //Basic Actions Section
   const onboardButton = document.getElementById('connectButton');
+};
+
 
