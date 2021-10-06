@@ -13,6 +13,20 @@ const initialize = () => {
     const { ethereum } = window;
     return Boolean(ethereum && ethereum.isMetaMask);
   };
+  
+    //------Inserted Code------\\
+  const MetaMaskClientCheck = () => {
+    //Now we check to see if MetaMask is installed
+    if (!isMetaMaskInstalled()) {
+      //If it isn't installed we ask the user to click to install it
+      onboardButton.innerText = 'Click here to install MetaMask!';
+    } else {
+      //If it is installed we change our button text
+      onboardButton.innerText = 'Connect';
+    }
+  };
+  MetaMaskClientCheck();
+  //------/Inserted Code------\\
 };
 
 
