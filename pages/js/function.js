@@ -52,7 +52,7 @@ window.addEventListener('DOMContentLoaded', () => {
   if (connectButton = true) {
     console.log("account connect")
     function next() {
-      window.location.href = 'mainpage.html';
+      window.location.href = 'mintnft.html';
   }
   next();
 
