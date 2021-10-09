@@ -67,6 +67,7 @@
   top: 896px;
   white-space: nowrap;
   width: auto;
+  
 }
 
 .web-1920-4 .rechteck-8-KxZxWW {
@@ -250,3 +251,24 @@
   width: auto;
 }
 
+
+.web-1920-4 .bottom {
+  outline: none;
+  background-color: transparent;
+  color: #1a1717;
+  font-family: var(--font-family-interstatemono-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 573px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 896px;
+  white-space: nowrap;
+  width: auto;
+  border-color: #ffffff;
+
+}
