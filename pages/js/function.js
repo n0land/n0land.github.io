@@ -15,6 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
         onboardButton.innerText = 'Connect';
         onboardButton.disabled = true;
         onboarding.stopOnboarding();
+        connectButton = true
       } else {
         onboardButton.innerText = 'Connect';
         onboardButton.onclick = async () => {
@@ -47,3 +48,14 @@ window.addEventListener('DOMContentLoaded', () => {
     showAccount.innerHTML = account; //account
   }
   });
+
+  if (connectButton = true) {
+    function next() {
+      window.location.href = 'mainpage.html';
+  }
+
+  }
+
+
+
+  
