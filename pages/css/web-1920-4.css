@@ -272,3 +272,30 @@
   border-color: #fff0;
 
 }
+
+.web-1920-4 .text-1 {
+  color: var(--woodsmoke);
+  cursor: pointer;
+  font-family: var(--font-family-interstatemono-bold);
+  font-size: 12px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 800px;
+  left: 800px;
+  white-space: nowrap;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "InterstateMono-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/InterstateMono-Bold") format("opentype");
+}
+
+
