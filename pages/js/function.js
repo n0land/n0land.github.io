@@ -54,8 +54,11 @@ window.addEventListener('DOMContentLoaded', () => {
     function next() {
       window.location.href = 'mainpage.html';
   }
+  next();
 
   }
+
+
 
 
 
