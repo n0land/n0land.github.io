@@ -50,6 +50,7 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   if (connectButton = true) {
+    console.log("account connect")
     function next() {
       window.location.href = 'mainpage.html';
   }
