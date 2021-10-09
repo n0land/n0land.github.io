@@ -236,10 +236,11 @@
   color: var(--woodsmoke);
   cursor: pointer;
   font-family: var(--font-family-interstatemono-bold);
-  font-size: var(--font-size-l);
+  font-size: 12px;
   font-style: normal;
   font-weight: 700;
   padding-left: 1220px;
+  padding-top: 55px;
   height: auto;
   letter-spacing: 0.00px;
   line-height: 25px;
