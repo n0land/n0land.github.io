@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
           onboarding.startOnboarding();
         };
       } else if (accounts && accounts.length > 0) {
-        onboardButton.innerText = 'Connected';
+        onboardButton.innerText = 'Connect';
         onboardButton.disabled = true;
         onboarding.stopOnboarding();
       } else {
