@@ -1,0 +1,231 @@
+/* screen - web-1920-4 */
+
+.web-1920-4 {
+  background-color: #ffffff;
+  height: 1080px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.web-1920-4 .rechteck-9-KxZxWW {
+  background-color: transparent;
+  border: 3px solid var(--dove-gray);
+  border-radius: 15px;
+  cursor: pointer;
+  height: 831px;
+  left: 213px;
+  position: absolute;
+  top: 147px;
+  width: 791px;
+}
+
+.web-1920-4 .rechteck-10-KxZxWW {
+  background-color: transparent;
+  border-radius: 15px;
+  height: 64px;
+  left: 260px;
+  position: absolute;
+  top: 522px;
+  width: 697px;
+}
+
+.web-1920-4 .rechteck-11-KxZxWW {
+  background-color: transparent;
+  border-radius: 15px;
+  height: 64px;
+  left: 260px;
+  position: absolute;
+  top: 626px;
+  width: 697px;
+}
+
+.web-1920-4 .rechteck-12-KxZxWW {
+  background-color: transparent;
+  border-radius: 15px;
+  height: 64px;
+  left: 260px;
+  position: absolute;
+  top: 722px;
+  width: 697px;
+}
+
+.web-1920-4 .title-KxZxWW {
+  background-color: transparent;
+  color: #1a1717;
+  font-family: var(--font-family-interstatemono-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 573px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 896px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-4 .rechteck-8-KxZxWW {
+  background-color: transparent;
+  border: 2px solid #453e3e;
+  border-radius: 30px;
+  cursor: pointer;
+  height: 56px;
+  left: 507px;
+  pointer-events: auto;
+  position: absolute;
+  top: 882px;
+  transition: all 0.2s ease;
+  width: 203px;
+}
+
+.web-1920-4 .rechteck-8-KxZxWW:hover {
+  transform: translate(0, -5px);
+}
+
+.web-1920-4 .apply-for-scholarship-KxZxWW {
+  background-color: transparent;
+  color: #3e3737;
+  font-family: var(--font-family-interstatemono-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 455px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 177px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-4 .enter-your-full-name-KxZxWW {
+  background-color: transparent;
+  border: 0;
+  height: 34px;
+  left: 416px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 538px;
+  white-space: nowrap;
+  width: 386px;
+}
+
+.web-1920-4 .enter-your-full-name-KxZxWW::placeholder {
+  color: #c3bcbc99;
+}
+
+.web-1920-4 .enter-your-email-adress-KxZxWW {
+  background-color: transparent;
+  border: 0;
+  height: 34px;
+  left: 387px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 644px;
+  white-space: nowrap;
+  width: 444px;
+}
+
+.web-1920-4 .enter-your-email-adress-KxZxWW::placeholder {
+  color: #c3bcbc99;
+}
+
+.web-1920-4 .enter-your-pers-al-ronin-wallet-KxZxWW {
+  background-color: transparent;
+  border: 0;
+  height: 34px;
+  left: 301px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 740px;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.web-1920-4 .enter-your-pers-al-ronin-wallet-KxZxWW::placeholder {
+  color: #c3bcbc99;
+}
+
+.web-1920-4 .lorem-ipsum-dol-no-sea-takimata-KxZxWW {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-interstatemono-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: 205px;
+  left: 278px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 249px;
+  width: 663px;
+}
+
+.web-1920-4 .noalnd-KxZxWW {
+  background-color: transparent;
+  color: var(--woodsmoke);
+  cursor: pointer;
+  font-family: var(--font-family-interstatemono-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-4 .rechteck-14-KxZxWW {
+  background-color: transparent;
+  border-radius: 30px;
+  height: 40px;
+  left: 1765px;
+  position: absolute;
+  top: 45px;
+  width: 110px;
+}
+
+.web-1920-4 .connect-KxZxWW {
+  background-color: transparent;
+  color: var(--woodsmoke);
+  font-family: var(--font-family-interstatemono-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 1778px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 55px;
+  white-space: nowrap;
+  width: auto;
+}
