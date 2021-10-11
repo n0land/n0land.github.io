@@ -2,6 +2,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const onboarding = new MetaMaskOnboarding();
     const onboardButton = document.getElementById('onboard');
     let accounts;
+    let connectButton;
     
   
     const updateButton = () => {
@@ -16,7 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
         onboardButton.innerText = 'Connected';
         onboardButton.disabled = true;
         onboarding.stopOnboarding();
-        let connectButton = true;
+        connectButton = true;
         
       } else {
         onboardButton.innerText = 'Connect';
