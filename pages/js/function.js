@@ -14,10 +14,10 @@ window.addEventListener('DOMContentLoaded', () => {
           onboarding.startOnboarding();
         };
       } else if (accounts && accounts.length > 0) {
-        onboardButton.innerText = 'Connected';
+        onboardButton.innerText = 'Connect';
         onboardButton.disabled = true;
         onboarding.stopOnboarding();
-        connectButton = true;
+        console.log("account connected")
         
       } else {
         onboardButton.innerText = 'Connect';
@@ -56,10 +56,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // change connectbottom to green
 
   
-    if (connectButton = true) {
-      console.log("account connect")
-      //window.location.href = 'mintnft.html';
-    } 
+
  
 
 
