@@ -50,7 +50,18 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   if (connectButton = true) {
+
+    document.getElementById("connect-PXLNMr interstatemono-bold-woodsmoke-20px").style.backgroundColor = '#99C262'
+
+
+
+
+   
+
     console.log("account connect")
+
+
+
     function next() {
       //window.location.href = 'mintnft.html';
   }
