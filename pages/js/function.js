@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
         onboardButton.innerText = 'Connected';
         onboardButton.disabled = true;
         onboarding.stopOnboarding();
-        connectButton = false;
+        let connectButton = true;
         
       } else {
         onboardButton.innerText = 'Connect';
@@ -54,15 +54,14 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // change connectbottom to green
 
-  if (connectButton = true) {
+  if (connectButton == true) {
 
-    function next() {
+    
       console.log("account connect")
       document.getElementById("onboard").style.Color = '#33ffba';
 
       //window.location.href = 'mintnft.html';
-  }
-  next();
+ 
 
   }
 
