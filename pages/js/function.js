@@ -54,9 +54,7 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  const greenSignal = document.getElementById('.greenSignal');
-  let code = "<span style='color: red;'>**Message</span>";
-  greenSignal.innerHTML = code
+  
 
 
 
