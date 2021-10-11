@@ -59,7 +59,6 @@ window.addEventListener('DOMContentLoaded', () => {
     function next() {
       console.log("account connect")
       document.getElementById("onboard").style.Color = '#33ffba';
-
       //window.location.href = 'mintnft.html';
   }
   next();
