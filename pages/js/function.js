@@ -62,6 +62,8 @@ window.addEventListener('DOMContentLoaded', () => {
     } 
   }
 
+  changetogreen();
+
    
 
 
