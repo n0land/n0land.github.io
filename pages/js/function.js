@@ -2,6 +2,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const onboarding = new MetaMaskOnboarding();
     const onboardButton = document.getElementById('onboard');
     let accounts;
+    
   
     const updateButton = () => {
       if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
@@ -15,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
         onboardButton.innerText = 'Connected';
         onboardButton.disabled = true;
         onboarding.stopOnboarding();
-        connectButton = true;
+        connectButton = false;
         
       } else {
         onboardButton.innerText = 'Connect';
@@ -57,7 +58,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     function next() {
       console.log("account connect")
-      document.getElementById("onboard").style.Color = '#99C262';
+      document.getElementById("onboard").style.Color = '#33ffba';
 
       //window.location.href = 'mintnft.html';
   }
