@@ -12,10 +12,10 @@ window.addEventListener('DOMContentLoaded', () => {
           onboarding.startOnboarding();
         };
       } else if (accounts && accounts.length > 0) {
-        onboardButton.innerText = 'Connect';
+        onboardButton.innerText = 'Connected';
         onboardButton.disabled = true;
         onboarding.stopOnboarding();
-        connectButton = true
+        connectButton = true;
       } else {
         onboardButton.innerText = 'Connect';
         onboardButton.onclick = async () => {
@@ -51,13 +51,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   if (connectButton = true) {
 
-    document.getElementById("connect-PXLNMr interstatemono-bold-woodsmoke-20px").style.backgroundColor = '#99C262'
-
-
-
-
-   
-
+    document.getElementById("connect-PXLNMr interstatemono-bold-woodsmoke-20px").style.Color = '#99C262'
     console.log("account connect")
 
 
