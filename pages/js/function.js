@@ -54,11 +54,6 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  
-
-
-
-
 
 
   // change connectbottom to green
