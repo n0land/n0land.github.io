@@ -17,9 +17,8 @@ window.addEventListener('DOMContentLoaded', () => {
         onboardButton.innerText = 'Connect';
         onboardButton.disabled = true;
         onboarding.stopOnboarding();
-
-        console.log("account connected");
-        document.getElementById("onboard").style.Color = '#33ffba'
+        connectButton = true;
+        
         
       } else {
         onboardButton.innerText = 'Connect';
@@ -54,6 +53,11 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   });
 
+
+  if (connectButton = true) {
+
+    console.log("account connected")
+  }
 
   // change connectbottom to green
 
