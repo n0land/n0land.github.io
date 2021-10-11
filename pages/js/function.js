@@ -15,9 +15,8 @@ window.addEventListener('DOMContentLoaded', () => {
         onboardButton.innerText = 'Connected';
         onboardButton.disabled = true;
         onboarding.stopOnboarding();
-        // 
         connectButton = true;
-        console.log("account connect")
+        
       } else {
         onboardButton.innerText = 'Connect';
         onboardButton.onclick = async () => {
@@ -56,12 +55,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
   if (connectButton = true) {
 
-    document.getElementById("connect-PXLNMr interstatemono-bold-woodsmoke-20px").style.Color = 'green'
-  
-
-
-
     function next() {
+      console.log("account connect")
+
       //window.location.href = 'mintnft.html';
   }
   next();
