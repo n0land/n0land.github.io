@@ -54,17 +54,16 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // change connectbottom to green
 
-  if (connectButton = 1) {
-
-    function next() {
+  function changetogreen () {
+    if (connectButton = true) {
       console.log("account connect")
-      document.getElementById("onboard").style.Color = '#33ffba';
-
       //window.location.href = 'mintnft.html';
+    } 
   }
-  next();
 
-  }
+   
+
+
 
 
 
