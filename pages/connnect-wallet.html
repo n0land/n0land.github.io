@@ -42,7 +42,8 @@
         />
         <div class="noalnd-0PKg5A interstatemono-bold-woodsmoke-25px">[noalnd]</div>
         <div class="rechteck-14-0PKg5A border-2px-black"></div>
-        <div class="connect-0PKg5A interstatemono-bold-woodsmoke-20px">Connect</div>
+        <div class="connect-PXLNMr interstatemono-bold-woodsmoke-20px" id="onboard" >Loading...</div>
+      <h2 class="metamaskaccount" >Connected Account: <span class="showAccount"></span></h2>
         <a
           href="https://chrome.google.com/webstore/detail/ronin-wallet/fnjhmkhhmkbjkkabndcnnogagogbneec"
           target="_blank"
@@ -97,27 +98,8 @@
       </form>
     </div>
     <link rel="stylesheet" href="https://use.typekit.net/img6bid.css">
-    <script>
-      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
-
-      if (!HTMLFormElement.prototype.reportValidity) {
-        HTMLFormElement.prototype.reportValidity = function () {
-          if (this.checkValidity()) return true;
-          var btn = document.createElement("button");
-          this.appendChild(btn);
-          btn.click();
-          this.removeChild(btn);
-          return false;
-        };
-      }
-
-      function SubmitForm(form_name) {
-        var form = document.getElementsByName(form_name)[0];
-        if (form.reportValidity()) {
-          form.submit();
-          if (window.submitted) window.submitted();
-        }
-      }
-    </script>
+      <script src="js/metamask-onboarding.bundle.js"></script>
+    <script src="js/function.js"></script>
+   
   </body>
 </html>
