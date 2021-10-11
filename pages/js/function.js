@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  if (connectButton = true) {
+  if (connectButton = "yes") {
 
     console.log("account connected")
   }
