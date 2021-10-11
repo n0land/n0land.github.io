@@ -1,6 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
     const onboarding = new MetaMaskOnboarding();
     const onboardButton = document.getElementById('onboard');
+
     let accounts;
     let connectButton;
     
@@ -17,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
         onboardButton.innerText = 'Connect';
         onboardButton.disabled = true;
         onboarding.stopOnboarding();
-        onboardButton.body.style.backgroundColor = "red"
+        console.log("account connected")
         
       } else {
         onboardButton.innerText = 'Connect';
@@ -53,10 +54,14 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  if (connectButton = "yes") {
+  const greenSignal = document.getElementById('.greenSignal');
+  let code = "<span style='color: red;'>**Message</span>";
+  greenSignal.innerHTML = code
 
-    console.log("account connected")
-  }
+
+
+
+
 
   // change connectbottom to green
 
