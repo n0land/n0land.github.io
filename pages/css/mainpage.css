@@ -174,3 +174,22 @@
   white-space: nowrap;
   width: 86px;
 }
+
+.mainpage .metamaskaccount{
+  background-color: transparent;
+  color: var(--woodsmoke);
+  cursor: pointer;
+  font-family: var(--font-family-interstatemono-bold);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 1380px;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 55px;
+  white-space: nowrap;
+  width: auto;
+}
