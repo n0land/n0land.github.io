@@ -15,7 +15,9 @@ window.addEventListener('DOMContentLoaded', () => {
         onboardButton.innerText = 'Connected';
         onboardButton.disabled = true;
         onboarding.stopOnboarding();
+        // 
         connectButton = true;
+        console.log("account connect")
       } else {
         onboardButton.innerText = 'Connect';
         onboardButton.onclick = async () => {
@@ -49,10 +51,13 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   });
 
+
+  // change connectbottom to green
+
   if (connectButton = true) {
 
-    document.getElementById("connect-PXLNMr interstatemono-bold-woodsmoke-20px").style.Color = '#99C262'
-    console.log("account connect")
+    document.getElementById("connect-PXLNMr interstatemono-bold-woodsmoke-20px").style.Color = 'green'
+  
 
 
 
