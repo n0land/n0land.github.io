@@ -55,14 +55,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // change connectbottom to green
 
-  function changetogreen () {
+  
     if (connectButton = true) {
       console.log("account connect")
       //window.location.href = 'mintnft.html';
     } 
-  }
+ 
 
-  changetogreen();
 
    
 
