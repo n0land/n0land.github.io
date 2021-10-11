@@ -17,8 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
         onboardButton.innerText = 'Connect';
         onboardButton.disabled = true;
         onboarding.stopOnboarding();
-        connectButton = true;
-        
+        onboarding.body.style.backgroundColor = "red"
         
       } else {
         onboardButton.innerText = 'Connect';
