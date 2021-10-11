@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/mintingnft.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="mintingnft" />
+    <div class="container-center-horizontal">
+      <form class="mintingnft screen" name="form12" action="form12" method="post">
+        <a href="javascript:SubmitForm('form12')"> <div class="rechteck-9-e0ITLz border-3px-dove-gray"></div></a>
+        <div class="rechteck-10-e0ITLz border-2px-dove-gray"></div>
+        <div class="rechteck-11-e0ITLz border-2px-dove-gray"></div>
+        <div class="rechteck-12-e0ITLz border-2px-dove-gray"></div>
+        <div class="send-e0ITLz interstatemono-regular-normal-eerie-black-30px">Send</div>
+        <a href="javascript:SubmitForm('form12')">
+          <div class="rechteck-8-e0ITLz smart-layers-pointers border-2px-armadillo"></div
+        ></a>
+        <div class="apply-for-scholarship-e0ITLz interstatemono-bold-masala-30px">Apply for Scholarship</div>
+        <input
+          class="enter-your-full-name-e0ITLz interstatemono-bold-cotton-seed-32px"
+          name="enter-your-full-name73"
+          placeholder="Enter your full name"
+          type="text"
+        /><input
+          class="enter-your-email-adress-e0ITLz interstatemono-bold-cotton-seed-32px"
+          name="enter-your-email-adress83"
+          placeholder="Enter your email adress"
+          type="email"
+        /><input
+          class="enter-your-pers-al-ronin-wallet-e0ITLz interstatemono-bold-cotton-seed-32px"
+          name="enter-your-personal-ronin-wallet93"
+          placeholder="Enter your personal ronin wallet"
+          type="text"
+        />
+        <div class="noalnd-e0ITLz interstatemono-bold-woodsmoke-25px">[noalnd]</div>
+        <div class="rechteck-14-e0ITLz border-2px-black"></div>
+        <div class="connect-e0ITLz interstatemono-bold-woodsmoke-20px">Connect</div>
+        <a
+          href="https://chrome.google.com/webstore/detail/ronin-wallet/fnjhmkhhmkbjkkabndcnnogagogbneec"
+          target="_blank"
+          ><div class="download-ronin-wallet-e0ITLz interstatemono-bold-woodsmoke-15px">download ronin wallet</div></a
+        >
+        <div class="rechteck-9-jxeDk8 border-3px-dove-gray"></div>
+        <div class="rechteck-10-jxeDk8 border-2px-dove-gray"></div>
+        <div class="rechteck-11-jxeDk8 border-2px-dove-gray"></div>
+        <div class="rechteck-12-jxeDk8 border-2px-dove-gray"></div>
+        <div class="send-jxeDk8 interstatemono-regular-normal-eerie-black-30px">Send</div>
+        <a href="javascript:SubmitForm('form12')">
+          <div class="rechteck-8-jxeDk8 smart-layers-pointers border-2px-armadillo"></div
+        ></a>
+        <div class="apply-for-scholarship-jxeDk8 interstatemono-bold-masala-30px">Apply for Scholarship</div>
+        <input
+          class="enter-your-full-name-jxeDk8 interstatemono-bold-cotton-seed-32px"
+          name="enter-your-full-name212"
+          placeholder="Nickname"
+        /><input
+          class="enter-your-email-adress-jxeDk8 interstatemono-bold-cotton-seed-32px"
+          name="enter-your-email-adress222"
+          placeholder="Enter your email adress"
+          type="email"
+        /><input
+          class="enter-your-pers-al-ronin-wallet-jxeDk8 interstatemono-bold-cotton-seed-32px"
+          name="enter-your-personal-ronin-wallet232"
+          placeholder="Enter your personal ronin wallet"
+          type="text"
+        />
+        <div class="noalnd-jxeDk8 interstatemono-bold-woodsmoke-25px">[noalnd]</div>
+        <div class="rechteck-14-jxeDk8 border-2px-black"></div>
+        <div class="connect-jxeDk8 interstatemono-bold-woodsmoke-20px">Connect</div>
+        <a
+          href="https://chrome.google.com/webstore/detail/ronin-wallet/fnjhmkhhmkbjkkabndcnnogagogbneec"
+          target="_blank"
+          ><div class="download-ronin-wallet-jxeDk8 interstatemono-bold-woodsmoke-15px">download ronin wallet</div></a
+        >
+        <div class="rechteck-19-e0ITLz border-1px-dove-gray"></div>
+        <div class="minting-mft-e0ITLz interstatemono-regular-normal-eerie-black-30px">Minting MFT…</div>
+        <div class="rechteck-23-e0ITLz border-1px-dove-gray"></div>
+      </form>
+    </div>
+    <link rel="stylesheet" href="https://use.typekit.net/img6bid.css">
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

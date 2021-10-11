@@ -1,6 +1,6 @@
-/* screen - web-1920-1 */
+/* screen - index */
 
-.web-1920-1 {
+.index {
   background-color: var(--black);
   height: 1080px;
   overflow: hidden;
@@ -9,9 +9,8 @@
   width: 1920px;
 }
 
-.web-1920-1 .rechteck-18-HlzXCz {
+.index .rechteck-18-IO3Fu5 {
   background-color: transparent;
-  border: transparent;
   height: 1080px;
   left: 0px;
   overflow: hidden;
@@ -20,17 +19,17 @@
   width: 1920px;
 }
 
-.web-1920-1 .rechteck-18-HlzXCz video {
+.index .rechteck-18-IO3Fu5 video {
   height: 100%;
   object-fit: cover;
   width: 100%;
 }
 
-.web-1920-1 .rechteck-18-HlzXCz img {
+.index .rechteck-18-IO3Fu5 img {
   object-fit: cover;
 }
 
-.web-1920-1 .pfad-1-HlzXCz {
+.index .pfad-1-IO3Fu5 {
   background-color: transparent;
   cursor: pointer;
   height: 1080px;

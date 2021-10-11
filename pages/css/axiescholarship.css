@@ -1,0 +1,100 @@
+/* screen - axiescholarship */
+
+.axiescholarship {
+  background-color: var(--white);
+  height: 1080px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.axiescholarship .noalnd-jFerxc {
+  background-color: transparent;
+  height: auto;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.axiescholarship .rechteck-14-jFerxc {
+  background-color: transparent;
+  border-radius: 30px;
+  height: 40px;
+  left: 1765px;
+  position: absolute;
+  top: 45px;
+  width: 110px;
+}
+
+.axiescholarship .connect-jFerxc {
+  background-color: transparent;
+  height: auto;
+  left: 1778px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 55px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.axiescholarship .noalnd-OdHpgg {
+  background-color: transparent;
+  height: auto;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.axiescholarship .rechteck-14-OdHpgg {
+  background-color: transparent;
+  border-radius: 30px;
+  height: 40px;
+  left: 1765px;
+  position: absolute;
+  top: 45px;
+  width: 110px;
+}
+
+.axiescholarship .connect-OdHpgg {
+  background-color: transparent;
+  height: auto;
+  left: 1778px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 55px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.axiescholarship .a-jFerxc {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-_applesystemuifont-regular);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 767px;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  position: absolute;
+  text-align: left;
+  top: 223px;
+  white-space: nowrap;
+  width: auto;
+}

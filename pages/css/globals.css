@@ -1,16 +1,22 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
 @font-face {
+  font-family: "InterstateMono-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/.31172.otf") format("opentype");
+}
+@font-face {
   font-family: "InterstateMono-Bold";
   font-style: normal;
   font-weight: 700;
   src: url("fonts/.31173.otf") format("opentype");
 }
 @font-face {
-  font-family: "InterstateMono-Regular";
+  font-family: ".AppleSystemUIFont-Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/.31172.otf") format("opentype");
+  src: url("fonts/SF-Pro-Display-Regular.otf") format("opentype");
 }
 
 .screen textarea:focus,

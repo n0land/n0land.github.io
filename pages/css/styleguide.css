@@ -1,29 +1,88 @@
 :root { 
+  --armadillo: #453e3e;
   --black: #000000;
   --cotton-seed: #c3bcbc;
   --dove-gray: #707070;
+  --eerie-black: #1a1717;
+  --masala: #3e3737;
+  --white: #ffffff;
   --woodsmoke: #101010;
  
-  --font-size-l: 25px;
-  --font-size-m: 20px;
-  --font-size-xl: 30px;
-  --font-size-xxl: 32px;
+  --font-size-m: 32px;
+  --font-size-s: 30px;
+  --font-size-xs: 25px;
+  --font-size-xxs: 20px;
+  --font-size-xxxs: 15px;
+  --font-size-xxxxs: 11px;
  
+  --font-family-_applesystemuifont-regular: ".AppleSystemUIFont-Regular", Helvetica;
   --font-family-interstatemono-bold: "InterstateMono-Bold", Helvetica;
   --font-family-interstatemono-regular: "InterstateMono-Regular", Helvetica;
 }
 .interstatemono-bold-cotton-seed-32px {
   color: var(--cotton-seed);
   font-family: var(--font-family-interstatemono-bold);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 700;
+}
+
+.interstatemono-regular-normal-eerie-black-30px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-interstatemono-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.interstatemono-bold-woodsmoke-20px {
+  color: var(--woodsmoke);
+  font-family: var(--font-family-interstatemono-bold);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.interstatemono-bold-woodsmoke-25px {
+  color: var(--woodsmoke);
+  font-family: var(--font-family-interstatemono-bold);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.interstatemono-bold-woodsmoke-15px {
+  color: var(--woodsmoke);
+  font-family: var(--font-family-interstatemono-bold);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.interstatemono-bold-masala-30px {
+  color: var(--masala);
+  font-family: var(--font-family-interstatemono-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.border-2px-dove-gray {
+  border: 2px solid var(--dove-gray);
 }
 
 .border-2px-black {
   border: 2px solid var(--black);
 }
 
-.border-2px-dove-gray {
-  border: 2px solid var(--dove-gray);
+.border-3px-dove-gray {
+  border: 3px solid var(--dove-gray);
+}
+
+.border-2px-armadillo {
+  border: 2px solid var(--armadillo);
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
 }

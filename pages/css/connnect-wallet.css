@@ -1,0 +1,481 @@
+/* screen - connnect-wallet */
+
+.connnect-wallet {
+  background-color: var(--white);
+  height: 1080px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.connnect-wallet .rechteck-9-0PKg5A {
+  background-color: transparent;
+  border-radius: 15px;
+  cursor: pointer;
+  height: 831px;
+  left: 213px;
+  position: absolute;
+  top: 147px;
+  width: 791px;
+}
+
+.connnect-wallet .rechteck-10-0PKg5A {
+  background-color: transparent;
+  border-radius: 15px;
+  height: 64px;
+  left: 260px;
+  position: absolute;
+  top: 522px;
+  width: 697px;
+}
+
+.connnect-wallet .rechteck-11-0PKg5A {
+  background-color: transparent;
+  border-radius: 15px;
+  height: 64px;
+  left: 260px;
+  position: absolute;
+  top: 626px;
+  width: 697px;
+}
+
+.connnect-wallet .rechteck-12-0PKg5A {
+  background-color: transparent;
+  border-radius: 15px;
+  height: 64px;
+  left: 260px;
+  position: absolute;
+  top: 722px;
+  width: 697px;
+}
+
+.connnect-wallet .send-0PKg5A {
+  background-color: transparent;
+  height: auto;
+  left: 573px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 896px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.connnect-wallet .rechteck-8-0PKg5A {
+  background-color: transparent;
+  border-radius: 30px;
+  cursor: pointer;
+  height: 56px;
+  left: 507px;
+  pointer-events: auto;
+  position: absolute;
+  top: 882px;
+  transition: all 0.2s ease;
+  width: 203px;
+}
+
+.connnect-wallet .rechteck-8-0PKg5A:hover {
+  transform: translate(0, -5px);
+}
+
+.connnect-wallet .apply-for-scholarship-0PKg5A {
+  background-color: transparent;
+  height: auto;
+  left: 420px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 177px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.connnect-wallet .enter-your-full-name-0PKg5A {
+  background-color: transparent;
+  border: 0;
+  height: 34px;
+  left: 416px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 538px;
+  white-space: nowrap;
+  width: 386px;
+}
+
+.connnect-wallet .enter-your-full-name-0PKg5A::placeholder {
+  color: #c3bcbc99;
+}
+
+.connnect-wallet .enter-your-email-adress-0PKg5A {
+  background-color: transparent;
+  border: 0;
+  height: 34px;
+  left: 387px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 644px;
+  white-space: nowrap;
+  width: 444px;
+}
+
+.connnect-wallet .enter-your-email-adress-0PKg5A::placeholder {
+  color: #c3bcbc99;
+}
+
+.connnect-wallet .enter-your-pers-al-ronin-wallet-0PKg5A {
+  background-color: transparent;
+  border: 0;
+  height: 34px;
+  left: 301px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 740px;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.connnect-wallet .enter-your-pers-al-ronin-wallet-0PKg5A::placeholder {
+  color: #c3bcbc99;
+}
+
+.connnect-wallet .noalnd-0PKg5A {
+  background-color: transparent;
+  height: auto;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.connnect-wallet .rechteck-14-0PKg5A {
+  background-color: transparent;
+  border-radius: 30px;
+  height: 40px;
+  left: 1765px;
+  position: absolute;
+  top: 45px;
+  width: 110px;
+}
+
+.connnect-wallet .connect-0PKg5A {
+  background-color: transparent;
+  height: auto;
+  left: 1778px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 55px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.connnect-wallet .download-ronin-wallet-0PKg5A {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 750px;
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 799px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.connnect-wallet .rechteck-9-Cc6tUP {
+  background-color: transparent;
+  border-radius: 15px;
+  height: 831px;
+  left: 213px;
+  position: absolute;
+  top: 147px;
+  width: 791px;
+}
+
+.connnect-wallet .rechteck-10-Cc6tUP {
+  background-color: transparent;
+  border-radius: 15px;
+  height: 64px;
+  left: 260px;
+  position: absolute;
+  top: 522px;
+  width: 697px;
+}
+
+.connnect-wallet .rechteck-11-Cc6tUP {
+  background-color: transparent;
+  border-radius: 15px;
+  height: 64px;
+  left: 260px;
+  position: absolute;
+  top: 626px;
+  width: 697px;
+}
+
+.connnect-wallet .rechteck-12-Cc6tUP {
+  background-color: transparent;
+  border-radius: 15px;
+  height: 64px;
+  left: 260px;
+  position: absolute;
+  top: 722px;
+  width: 697px;
+}
+
+.connnect-wallet .send-Cc6tUP {
+  background-color: transparent;
+  height: auto;
+  left: 573px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 896px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.connnect-wallet .rechteck-8-Cc6tUP {
+  background-color: transparent;
+  border-radius: 30px;
+  cursor: pointer;
+  height: 56px;
+  left: 507px;
+  pointer-events: auto;
+  position: absolute;
+  top: 882px;
+  transition: all 0.2s ease;
+  width: 203px;
+}
+
+.connnect-wallet .rechteck-8-Cc6tUP:hover {
+  transform: translate(0, -5px);
+}
+
+.connnect-wallet .enter-your-full-name-Cc6tUP {
+  background-color: transparent;
+  border: 0;
+  height: 34px;
+  left: 416px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 538px;
+  white-space: nowrap;
+  width: 386px;
+}
+
+.connnect-wallet .enter-your-full-name-Cc6tUP::placeholder {
+  color: #c3bcbc99;
+}
+
+.connnect-wallet .enter-your-email-adress-Cc6tUP {
+  background-color: transparent;
+  border: 0;
+  height: 34px;
+  left: 387px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 644px;
+  white-space: nowrap;
+  width: 444px;
+}
+
+.connnect-wallet .enter-your-email-adress-Cc6tUP::placeholder {
+  color: #c3bcbc99;
+}
+
+.connnect-wallet .enter-your-pers-al-ronin-wallet-Cc6tUP {
+  background-color: transparent;
+  border: 0;
+  height: 34px;
+  left: 301px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 740px;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.connnect-wallet .enter-your-pers-al-ronin-wallet-Cc6tUP::placeholder {
+  color: #c3bcbc99;
+}
+
+.connnect-wallet .noalnd-Cc6tUP {
+  background-color: transparent;
+  height: auto;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.connnect-wallet .rechteck-14-Cc6tUP {
+  background-color: transparent;
+  border-radius: 30px;
+  height: 40px;
+  left: 1765px;
+  position: absolute;
+  top: 45px;
+  width: 110px;
+}
+
+.connnect-wallet .connect-Cc6tUP {
+  background-color: transparent;
+  height: auto;
+  left: 1778px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 55px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.connnect-wallet .download-ronin-wallet-Cc6tUP {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 750px;
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 799px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.connnect-wallet .send-oIJuVl {
+  background-color: transparent;
+  height: auto;
+  left: 573px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 896px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.connnect-wallet .rechteck-26-0PKg5A {
+  background-color: var(--white);
+  border-radius: 15px;
+  height: 575px;
+  left: 1050px;
+  position: absolute;
+  top: 147px;
+  width: 760px;
+}
+
+.connnect-wallet .minimum-slp-ear-60-slp-scholar-0PKg5A {
+  background-color: transparent;
+  height: auto;
+  left: 1115px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 282px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.connnect-wallet .scholarship-conditions-0PKg5A {
+  background-color: transparent;
+  height: auto;
+  left: 1277px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 183px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.connnect-wallet .if-you-agree-wi-etwork-gas-fees-0PKg5A {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-interstatemono-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+  height: 236px;
+  left: 1185px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 473px;
+  width: 540px;
+}
+
+.connnect-wallet .rechteck-27-0PKg5A {
+  background-color: transparent;
+  border-radius: 30px;
+  height: 198px;
+  left: 1083px;
+  position: absolute;
+  top: 237px;
+  width: 694px;
+}
+
+.connnect-wallet .mint-0PKg5A {
+  background-color: transparent;
+  height: 20px;
+  left: 1699px;
+  object-fit: cover;
+  position: absolute;
+  top: 666px;
+  width: 48px;
+}
+
+.connnect-wallet .rechteck-22-0PKg5A {
+  background-color: transparent;
+  border-radius: 30px;
+  cursor: pointer;
+  height: 40px;
+  left: 1668px;
+  position: absolute;
+  top: 656px;
+  width: 110px;
+}
